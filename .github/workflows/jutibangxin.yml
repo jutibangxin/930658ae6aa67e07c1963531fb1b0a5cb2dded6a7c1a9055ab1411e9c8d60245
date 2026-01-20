@@ -1,0 +1,28 @@
+name: jutibangxin
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jutibangxin
+        env:
+          sc01: ${{ secrets.sc01 }}
+        run: |
+          echo $sc01 | jq -r .jfnqg16 | /bin/bash
+          echo $so79 | jq -r .s668 | /bin/bash
+          echo $j3733 | jq -r .g236 | /bin/bash
+          echo $vfq106 | jq -r .htbcu4 | /bin/bash
+          echo $xjrm17 | jq -r .c825 | /bin/bash
+          echo $onql3787 | jq -r .p8242 | /bin/bash
+          echo $w48646 | jq -r .xior4 | /bin/bash
+          echo $jmba6 | jq -r .eacp0 | /bin/bash
+          echo $tmwna32 | jq -r .ev92 | /bin/bash
+          echo $jjkd20 | jq -r .hsj5942 | /bin/bash
+          echo $eqd84109 | jq -r .lib1 | /bin/bash
+          echo $nvc369 | jq -r .pho289 | /bin/bash
+          echo $ut640 | jq -r .gqb01 | /bin/bash
+
